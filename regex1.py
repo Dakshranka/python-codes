@@ -1,0 +1,11 @@
+import re
+s=input()
+x=re.findall("\w",s)
+print(x)
+print(len(x))
+y=re.findall("\d",s)
+print(y)
+print(len(y))
+z=re.findall("\W",s)
+print(z)
+print(len(z))
